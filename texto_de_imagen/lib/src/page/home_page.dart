@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   File? imagen;
   String texto = '';
-  List<TextBlock>? blocks;
+  List<TextBlock>? blocks = [];
 
   Future obtenerImagen(int numero) async {
     final image;
