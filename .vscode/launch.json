@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "texto_de_imagen",
+            "cwd": "texto_de_imagen",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "texto_de_imagen (profile mode)",
+            "cwd": "texto_de_imagen",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "texto_de_imagen (release mode)",
+            "cwd": "texto_de_imagen",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
